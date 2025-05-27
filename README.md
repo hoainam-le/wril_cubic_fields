@@ -2,27 +2,18 @@
 
 This repository contains a symbolic computation project written in the Wolfram Language (Mathematica).
 
-## Folder Structure
+## How to Use
 
-project/
-├── notebooks/
-│ └── analysis.nb # Wolfram Notebook (main file)
-├── output/
-│ └── analysis.pdf # Exported PDF version (for quick viewing)
+- The files in the `notebooks/` folder (`*.nb`) are the main working notebooks.  
+  You can **download and open them using Wolfram Desktop or Wolfram Cloud**.
 
-## 📘 How to Use
+- The files in the `output/` folder (`*.pdf`) are **read-only versions** of the notebooks.  
+  These are useful if you **just want to view the content without running any code**.
 
-- The file in the `notebooks/` folder (`analysis.nb`) is the main working notebook.
-  - You can **download and open it using Wolfram Desktop or Wolfram Cloud**.
-  - It contains symbolic calculations and explanations in an interactive notebook format.
+## Requirements
 
-- The file in the `output/` folder (`analysis.pdf`) is a **read-only version** of the notebook.
-  - It is useful if you **just want to read the content without running any code**.
-
-## ✅ Requirements
-
-- To run the notebook: **Wolfram Mathematica** or access to [Wolfram Cloud](https://www.wolframcloud.com).
-- To view the PDF: any PDF reader.
+- To run the notebooks: **Wolfram Mathematica**, or access via [Wolfram Cloud](https://www.wolframcloud.com)
+- To view the PDFs: any standard PDF reader
 
 ---
 
