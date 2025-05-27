@@ -1,6 +1,6 @@
 # wril_cubic_fields
 
-This repository is a computational project using by Mathematica and Sagemath.
+This repository is a computational project by using  Mathematica and Sagemath.
 
 ## How to Use
 
