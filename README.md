@@ -1,6 +1,6 @@
 # wril_cubic_fields
 
-This repository contains a computational project using **SageMath** and **Mathematica** to study WR ideal lattice in cyclic cubic fields.
+This repository contains a computational project using **SageMath** and **Mathematica** to study WR ideal lattices in cyclic cubic fields.
 
 ## Structure
 
