@@ -1,18 +1,20 @@
 # wril_cubic_fields
 
-This repository contains a computational project using **SageMath** and **Mathematica** to study WR ideal lattices in cyclic cubic fields.
+This repository uses **SageMath** and **Mathematica** to carry out computations related to WR ideal lattices in cyclic cubic fields, and contains the results of all heavy symbolic computations described in the paper.
+
+Authors: 
 
 ## Structure
 
-- `notebooks/sagemath/` – SageMath notebooks (`*.ipynb`)
-- `notebooks/wolfram/` – Mathematica notebooks (`*.nb`)
-- `output/sage/` – PDF exports of SageMath notebooks (read-only)
-- `output/wolfram/` – PDF exports of Mathematica notebooks (read-only)
+```text
+notebooks/
+├── sagemath/    # SageMath notebooks (*.ipynb)
+└── wolfram/     # Mathematica notebooks (*.nb)
 
-## How to Use
+output/
+└── wolfram/     # PDF exports of Mathematica notebooks
+```
 
-- To interact with the code, open the corresponding notebooks in `notebooks/sage/` or `notebooks/wolfram/`.
-- To read the results without running code, open the PDFs in the `output/` folder.
 
 ## Requirements
 
