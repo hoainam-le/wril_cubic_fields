@@ -16,6 +16,6 @@ This repository contains a computational project using **SageMath** and **Mathem
 
 ## Requirements
 
-- [SageMath](https://www.sagemath.org/)
-- [Wolfram Mathematica](https://www.wolfram.com/mathematica/)
+- [SageMath version 10.6](https://www.sagemath.org/)
+- [Wolfram Mathematica 14.2](https://www.wolfram.com/mathematica/)
 
