@@ -102,7 +102,7 @@ Here are brief descriptions of the files:
     and compute the norm of $\psi$ in order to check whether $\mathrm{Norm}(\psi)$ divides 
     the discriminant of the number field.
 
-- `shank_twist_example_n39.ipynb`: Contains an example of Shanks cyclic cubic field with $n= 39$.
+- `shanks_twist_example_n39.ipynb`: Contains an example of Shanks cyclic cubic field with $n= 39$.
 - `cal_norm_df'p.pdf`: Computes the norm of $df'(\rho)$.
 - `solve_ineqs_same_sign_conditions.pdf`: Solves inequalities under the same sign conditions ($e_1,e_2,e_3$ have the same sign).
 - `solve_ineqs_wr_conditions.pdf`: Solves inequalities for the WR conditions.
