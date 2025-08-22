@@ -2,7 +2,7 @@
 
 This repository uses **SageMath** and **Mathematica** to carry out computations related to WR ideal lattices in cyclic cubic fields, and contains the results of all heavy symbolic computations described in the paper.
 
-Authors: 
+Authors: Hoai Nam Le, Dat T. Tran, David Karpuk, and Ha T. N. Tran.
 
 ## Structure
 
