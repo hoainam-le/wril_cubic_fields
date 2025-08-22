@@ -40,11 +40,9 @@ Here are brief descriptions of the files:
 
     + Embed the basis elements $x,y,z$ of $B$ into $\mathbb{R}^3$ using the permutations either
       `shank_permutation`, `washington_permutation`, or `kishi_permutation`. Denote
-      $$
-      x = (x_1, x_2, x_3), 
+      $$      x = (x_1, x_2, x_3), 
       y = (y_1, y_2, y_3), 
-      z = (z_1, z_2, z_3).
-      $$
+      z = (z_1, z_2, z_3).      $$
 
     + Compute
       $$
