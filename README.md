@@ -38,8 +38,8 @@ Here are brief descriptions of the files:
 
   - **Step 2.** In the function `compute_gram_matrix`, we proceed as follows:
 
-    + Embed the basis elements $x,y,z$ of $B$ into $\mathbb{R}^3$ using the permutations  
-      `shank_permutation`, `washington_permutation`, `kishi_permutation`. Denote by  
+    + Embed the basis elements $x,y,z$ of $B$ into $\mathbb{R}^3$ using the permutations either
+      `shank_permutation`, `washington_permutation`, or `kishi_permutation`. Denote
       $$
       x = (x_1, x_2, x_3), 
       y = (y_1, y_2, y_3), 
@@ -67,6 +67,16 @@ Here are brief descriptions of the files:
       \end{vmatrix}.
       $$
 
+    + Define the elementary symmetric polynomials of $\alpha_0, \beta_0, \gamma_0$:   
+      $$
+      e_1 = \alpha_0 + \beta_0 + \gamma_0, \quad
+      e_2 = \alpha_0\beta_0 + \beta_0\gamma_0 + \gamma_0\alpha_0, \quad
+      e_3 = \alpha_0 \beta_0 \gamma_0.
+      $$
+
+      We need the values $e_1, e_2, e_3$ in order to pass them to **Mathematica** and check 
+      whether $\alpha_0, \beta_0, \gamma_0$ have the same sign.
+
     + Then compute
       $$
       s = \alpha_0 x_1^2 + \beta_0 x_2^2 + \gamma_0 x_3^2
@@ -85,22 +95,20 @@ Here are brief descriptions of the files:
       \quad \# \; \langle Ty, Tz \rangle.
       $$
 
-    + Finally, define
+    + Use these values to form the Gram matrix
       $$
-      e_1 = \alpha_0 + \beta_0 + \gamma_0, \quad
-      e_2 = \alpha_0\beta_0 + \beta_0\gamma_0 + \gamma_0\alpha_0, \quad
-      e_3 = \alpha_0 \beta_0 \gamma_0.
-      $$
-
-      We need the values $e_1, e_2, e_3$ in order to pass them to **Mathematica** and check 
-      whether $\alpha_0, \beta_0, \gamma_0$ have the same sign.
+      G = \begin{bmatrix}
+        s & u & v \\
+        u & s & w \\
+        v & w & s
+      \end{bmatrix}.
+      $$ and check the condition from Theorem 2.4 in the paper
 
   - For each good basis, we use the function `rewrite_alpha0_and_compute_norm_psi` to express  
     $$
     \alpha^2 = k \, \psi
     $$  
-    and compute the norm of $\psi$ in order to check whether $\mathrm{Norm}(\psi)$ divides 
-    the discriminant of the number field.
+    and compute the norm of $\psi$ in order to check whether $\mathrm{Norm}(\psi)$ divides the discriminant of the number field.
 
 - `shanks_twist_example_n39.ipynb`: Contains an example of Shanks cyclic cubic field with $n= 39$.
 - `cal_norm_df'p.pdf`: Computes the norm of $df'(\rho)$.
