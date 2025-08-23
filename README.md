@@ -29,7 +29,7 @@ Here are brief descriptions of the files:
 - `algebraic_elements.ipynb`: Computes the minimal polynomials of several elements in the corresponding family of cyclic cubic fields to verify that these elements are algebraic integers and therefore belong to the ring of integers of the field.
 - `all_fund_units_are_totally_positive.ipynb`: Contains examples in which every unit in the fundamental unit group is either totally positive or totally negative.
 - `compute_disc.ipynb`: Computes the discriminant of each set, verifying that it coincides with the discriminant of the corresponding number field and thus confirming that these sets form integral bases.
-- `compute_gram_matrix_of_good_bases.ipynb`: In this notebook, we verify that the bases of the form $B = \{x, y, z\}$ 
+- `compute_gram_matrix_of_good_bases.ipynb`: In this notebook, we will apply **Algorithm 1** to verify that the bases of the form $B = \{x, y, z\}$ 
   for families of cyclic cubic fields are good.
 - `shanks_twist_example_n39.ipynb`: Contains an example of Shanks cyclic cubic field with $n= 39$.
 - `cal_norm_df'p.pdf`: Computes the norm of $df'(\rho)$.
